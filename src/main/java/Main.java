@@ -1,16 +1,15 @@
-//import org.lwjgl.*;
-//import org.lwjgl.glfw.*;
-//import org.lwjgl.opengl.*;
-//import org.lwjgl.system.*;
-//
-//import java.nio.*;
-//
-//import static org.lwjgl.glfw.Callbacks.*;
-//import static org.lwjgl.glfw.GLFW.*;
-//import static org.lwjgl.opengl.GL11.*;
-//import static org.lwjgl.system.MemoryStack.*;
-//import static org.lwjgl.system.MemoryUtil.*;
-//
+import org.lwjgl.*;
+import org.lwjgl.glfw.*;
+import org.lwjgl.opengl.*;
+import org.lwjgl.system.*;
+
+import java.nio.*;
+
+import static org.lwjgl.glfw.Callbacks.*;
+import static org.lwjgl.glfw.GLFW.*;
+import static org.lwjgl.opengl.GL11.*;
+import static org.lwjgl.system.MemoryStack.*;
+import static org.lwjgl.system.MemoryUtil.*;
 //public class Main {
 //
 //    // The window handle
@@ -116,9 +115,70 @@
 //
 //}
 
+//public class Main {
+//    public static void main(String[] args) {
+//        Window window = Window.get();
+//        window.run();
+//    }
+//}
+
+import org.lwjgl.Version;
+import org.lwjgl.glfw.GLFW;
+import org.lwjgl.glfw.GLFWVidMode;
+import org.lwjgl.opengl.GL;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.system.MemoryStack;
+
 public class Main {
     public static void main(String[] args) {
-        Window window = Window.get();
-        window.run();
+        System.out.println("LWJGL version: " + Version.getVersion());
+
+        // Initialize GLFW
+        if (!GLFW.glfwInit()) {
+            throw new IllegalStateException("Unable to initialize GLFW");
+        }
+
+        // Configure GLFW
+        GLFW.glfwWindowHint(GLFW.GLFW_VISIBLE, GLFW.GLFW_FALSE);
+        GLFW.glfwWindowHint(GLFW.GLFW_CONTEXT_VERSION_MAJOR, 3);
+        GLFW.glfwWindowHint(GLFW.GLFW_CONTEXT_VERSION_MINOR, 3);
+        GLFW.glfwWindowHint(GLFW.GLFW_OPENGL_PROFILE, GLFW.GLFW_OPENGL_CORE_PROFILE);
+
+        // Create the window
+        long window = GLFW.glfwCreateWindow(800, 600, "Skybox Example", 0, 0);
+        if (window == 0) {
+            throw new RuntimeException("Failed to create the GLFW window");
+        }
+
+        // Center the window on the screen
+        try (MemoryStack stack = MemoryStack.stackPush()) {
+            GLFWVidMode vidMode = GLFW.glfwGetVideoMode(GLFW.glfwGetPrimaryMonitor());
+            GLFW.glfwSetWindowPos(window, (vidMode.width() - 800) / 2, (vidMode.height() - 600) / 2);
+        }
+
+        GLFW.glfwMakeContextCurrent(window);
+        GLFW.glfwSwapInterval(1);
+        GLFW.glfwShowWindow(window);
+
+        GL.createCapabilities();
+
+        // Load shaders and create shader program
+        int shaderProgram = ShaderLoader.loadShaders("shaders/vertexShader.glsl", "shaders/fragmentShader.glsl");
+
+        // Create skybox
+        com.yourpackage.Skybox skybox = new com.yourpackage.Skybox();
+
+        // Main loop
+        while (!GLFW.glfwWindowShouldClose(window)) {
+            GL11.glClear(GL11.GL_COLOR_BUFFER_BIT | GL11.GL_DEPTH_BUFFER_BIT);
+
+            // Render skybox
+            skybox.render(shaderProgram);
+
+            GLFW.glfwSwapBuffers(window);
+            GLFW.glfwPollEvents();
+        }
+
+        GLFW.glfwTerminate();
     }
 }
