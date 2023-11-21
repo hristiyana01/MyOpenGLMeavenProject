@@ -166,7 +166,7 @@ public class Main {
         int shaderProgram = ShaderLoader.loadShaders("shaders/vertexShader.glsl", "shaders/fragmentShader.glsl");
 
         // Create skybox
-        com.yourpackage.Skybox skybox = new com.yourpackage.Skybox();
+       Skybox skybox = new Skybox(glGenTextures());
 
         // Main loop
         while (!GLFW.glfwWindowShouldClose(window)) {

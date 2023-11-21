@@ -1,4 +1,4 @@
-package com.yourpackage;
+
 
 import org.lwjgl.opengl.GL20;
 import org.lwjgl.opengl.GL30;
@@ -27,7 +27,7 @@ public class Skybox {
         GL30.glBindBuffer(GL20.GL_ARRAY_BUFFER, vbo);
         GL30.glBufferData(GL20.GL_ARRAY_BUFFER, vertices, GL20.GL_STATIC_DRAW);
 
-        GL20
+//        GL20
     }
 
     public void render(int shaderProgram) {
