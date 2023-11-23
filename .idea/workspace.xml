@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8afc0b5-bac7-4878-ba2d-7534fe62536e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shaders/fragmentShader.glsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shaders/vertexShader.glsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TextureLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShaderLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShaderLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Skybox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Skybox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <workItem from="1699767601363" duration="14616000" />
       <workItem from="1700457312231" duration="9687000" />
       <workItem from="1700576069725" duration="2218000" />
-      <workItem from="1700718576213" duration="492000" />
+      <workItem from="1700718576213" duration="3082000" />
     </task>
     <servers />
   </component>
