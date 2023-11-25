@@ -1,15 +1,4 @@
-import org.lwjgl.*;
-import org.lwjgl.glfw.*;
-import org.lwjgl.opengl.*;
-import org.lwjgl.system.*;
-
-import java.nio.*;
-
-import static org.lwjgl.glfw.Callbacks.*;
-import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
-import static org.lwjgl.system.MemoryStack.*;
-import static org.lwjgl.system.MemoryUtil.*;
 //public class Main {
 //
 //    // The window handle
@@ -163,10 +152,10 @@ public class Main {
         GL.createCapabilities();
 
         // Load shaders and create shader program
-        int shaderProgram = ShaderLoader.loadShaders("shaders/vertexShader.glsl", "shaders/fragmentShader.glsl");
+        int shaderProgram = ShaderLoader.loadShaders("/Users/hristiyanashopova/Documents/GitHub/MyOpenGLMeavenProject/src/main/java/shaders/vertexShader.glsl", "/Users/hristiyanashopova/Documents/GitHub/MyOpenGLMeavenProject/src/main/java/shaders/fragmentShader.glsl");
 
         // Create skybox
-        com.yourpackage.Skybox skybox = new com.yourpackage.Skybox();
+       Skybox skybox = new Skybox(glGenTextures());
 
         // Main loop
         while (!GLFW.glfwWindowShouldClose(window)) {

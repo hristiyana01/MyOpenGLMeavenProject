@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8afc0b5-bac7-4878-ba2d-7534fe62536e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShaderLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Skybox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/textures/TextureData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxShader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxVertexPositions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/decodeTextureFileMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxFragmentShader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxVertexShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwjgl/opengl/AMDVertexShaderTessellator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/AMDVertexShaderTessellator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwjgl/opengl/ARBFragmentShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/ARBFragmentShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/frameOne.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/frameOne.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TextureLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Skybox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Skybox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,42 +30,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "/Users/hristiyanashopova/Documents/GitHub/MyOpenGLMeavenProject/src/main/resources/textures/skybox/skybox",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hristiyanashopova/Documents/GitHub/MyOpenGLMeavenProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox" />
       <recent name="$PROJECT_DIR$/src/main/resources/textures/skybox" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/textures" />
+      <recent name="$PROJECT_DIR$/src/main/java/shaders" />
       <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/textures" />
       <recent name="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox" />
       <recent name="$PROJECT_DIR$/src/main/resources/textures/skybox" />
-      <recent name="$PROJECT_DIR$/src/main/resources/shaders" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MyOpenGLMeavenProject" />
+      <option name="VM_PARAMETERS" value="-XstartOnFirstThread" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
@@ -101,7 +86,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699767600303</updated>
-      <workItem from="1699767601363" duration="9305000" />
+      <workItem from="1699767601363" duration="14616000" />
+      <workItem from="1700457312231" duration="9687000" />
+      <workItem from="1700576069725" duration="2218000" />
+      <workItem from="1700718576213" duration="3082000" />
     </task>
     <servers />
   </component>

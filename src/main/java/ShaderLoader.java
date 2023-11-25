@@ -36,7 +36,7 @@ public class ShaderLoader {
                 shaderSource.append(line).append("\n");
             }
         } catch (IOException e) {
-            throw new RuntimeException("Error reading shader source from: " + path, e);
+              throw new RuntimeException("Error reading shader source from: " + path, e);
         }
 
         int shader = GL20.glCreateShader(type);
