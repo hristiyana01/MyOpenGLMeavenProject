@@ -398,5 +398,10 @@
             <artifactId>steamworks4j-server</artifactId>
             <version>${steamworks4j-server.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl</artifactId>
+            <version>3.2.3</version> <!-- Use the version that matches your project -->
+        </dependency>
     </dependencies>
 </project>
