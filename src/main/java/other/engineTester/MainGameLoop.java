@@ -1,6 +1,6 @@
-//package engineTester;
+//package other.engineTester;
 //
-//import displayManager.DisplayWindow;
+//import other.displayManager.DisplayWindow;
 //import org.lwjgl.opengl.Display;
 //
 //public class MainGameLoop {

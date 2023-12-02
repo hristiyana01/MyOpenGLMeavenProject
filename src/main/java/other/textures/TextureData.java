@@ -1,4 +1,4 @@
-//package textures;
+//package other.textures;
 //
 //import java.nio.ByteBuffer;
 //

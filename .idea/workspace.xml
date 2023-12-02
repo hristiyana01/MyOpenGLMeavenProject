@@ -5,46 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8afc0b5-bac7-4878-ba2d-7534fe62536e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/bottom.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/front.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/top.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/IAppLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Render.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/scene/Scene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/game/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tinylog.properties " afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShaderLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShaderLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Skybox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Skybox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TextureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TextureLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/displayManager/DisplayWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/displayManager/DisplayWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engineTester/MainGameLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engineTester/MainGameLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shaders/fragmentShader.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/fragmentShader.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shaders/vertexShader.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/vertexShader.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/textures/TextureData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/textures/TextureData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/AMDVertexShaderTessellator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaderFiles/AMDVertexShaderTessellator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/ARBFragmentShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaderFiles/ARBFragmentShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxVertexPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxVertexPositions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/decodeTextureFileMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/decodeTextureFileMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/bottom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/front.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/front.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxFragmentShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxFragmentShader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxVertexShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxVertexShader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/displayManager/DisplayWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/displayManager/DisplayWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engineTester/MainGameLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/engineTester/MainGameLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/textures/TextureData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/textures/TextureData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shaderFiles/AMDVertexShaderTessellator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaderFiles/AMDVertexShaderTessellator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/SkyboxShader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/SkyboxVertexPositions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/SkyboxVertexPositions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/back.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/bottom.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/bottom.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/decodeTextureFileMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/decodeTextureFileMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/front.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/left.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skybox/back.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/bottom.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skybox/bottom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/front.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skybox/front.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skybox/left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skybox/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox/top.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skybox/top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxFragmentShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skyboxFragmentShader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/skyboxVertexShader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/skyboxVertexShader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/textures/skybox/top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/other/textures/skybox/top.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,26 +64,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hristiyanashopova/Documents/GitHub/MyOpenGLMeavenProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.22643678&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "/Users/hristiyanashopova/Documents/GitHub/MyOpenGLMeavenProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.22643678",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/textures/skybox/skybox" />
@@ -98,8 +103,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="game.Main" />
+      <module name="MyOpenGLMeavenProject" />
+      <option name="VM_PARAMETERS" value="-XstartOnFirstThread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MyOpenGLMeavenProject" />
       <option name="VM_PARAMETERS" value="-XstartOnFirstThread" />
@@ -108,9 +122,13 @@
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main1" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +148,7 @@
       <workItem from="1701147560167" duration="7299000" />
       <workItem from="1701237851260" duration="4572000" />
       <workItem from="1701357704307" duration="611000" />
-      <workItem from="1701499105300" duration="556000" />
+      <workItem from="1701499105300" duration="4276000" />
     </task>
     <servers />
   </component>

@@ -34,7 +34,7 @@
 //        GL30.glBindVertexArray(0);
 //
 //        // Load skybox texture
-//        TextureLoader.loadCubeMap("textures/skybox/skybox", "jpg");
+//        TextureLoader.loadCubeMap("other.textures/skybox/skybox", "jpg");
 //    }
 //
 //    public void render(int shaderProgram) {
