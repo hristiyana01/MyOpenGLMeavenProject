@@ -15,6 +15,7 @@ import static org.lwjgl.system.MemoryUtil.NULL;
 
 
 public class Window {
+
     private final long windowHandle;
     private int height;
     private Callable<Void> resizeFunc;
