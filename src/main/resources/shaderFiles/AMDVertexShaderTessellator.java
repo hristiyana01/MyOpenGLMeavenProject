@@ -10,14 +10,14 @@ import static org.lwjgl.system.JNI.*;
 
 /**
  * Native bindings to the <a href="http://www.opengl.org/registry/specs/AMD/vertex_shader_tessellator.txt">AMD_vertex_shader_tessellator</a> extension.
- * 
+ *
  * <p>The vertex shader tessellator gives new flexibility to the shader author to shade at a tessellated vertex, rather than just at a provided vertex.</p>
- * 
+ *
  * <p>In unextended vertex shading, the built-in attributes such as gl_Vertex, gl_Normal, and gl_MultiTexcoord0, together with the user defined attributes,
  * are system provided values which are initialized prior to vertex shader invocation.</p>
- * 
+ *
  * <p>With vertex shading tessellation, additional vertex shader special values are available:</p>
- * 
+ *
  * <pre><code>        ivec3 gl_VertexTriangleIndex; // indices of the three control
                                       // points for the vertex
         vec3 gl_BarycentricCoord;     // barycentric coordinates
@@ -56,12 +56,12 @@ import static org.lwjgl.system.JNI.*;
     Figure 2  A Tessellated Quad
     o = control point (and tessellated vertex)
     * = tessellated vertex</code></pre>
- * 
+ *
  * <p>When this extension is enabled, conventional built-in attributes and user defined attributes are uninitialized. The shader writer is responsible for
  * explicitly fetching all other vertex data either from textures, uniform buffers, or vertex buffers.</p>
- * 
+ *
  * <p>The shader writer is further responsible for interpolating the vertex data at the given barycentric coordinates or uv coordinates of the vertex.</p>
- * 
+ *
  * <p>Requires {@link GL20 OpenGL 2.0}.</p>
  */
 public class AMDVertexShaderTessellator {
