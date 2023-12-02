@@ -58,7 +58,7 @@ import static org.lwjgl.system.JNI.*;
     * = tessellated vertex</code></pre>
  *
  * <p>When this extension is enabled, conventional built-in attributes and user defined attributes are uninitialized. The shader writer is responsible for
- * explicitly fetching all other vertex data either from textures, uniform buffers, or vertex buffers.</p>
+ * explicitly fetching all other vertex data either from other.textures, uniform buffers, or vertex buffers.</p>
  *
  * <p>The shader writer is further responsible for interpolating the vertex data at the given barycentric coordinates or uv coordinates of the vertex.</p>
  *

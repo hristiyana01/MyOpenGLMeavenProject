@@ -1,4 +1,4 @@
-//package displayManager;
+//package other.displayManager;
 //
 //import org.lwjgl.LWJGLException;
 //import org.lwjgl.opengl.*;
