@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8afc0b5-bac7-4878-ba2d-7534fe62536e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Mesh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/SceneRender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/ShaderProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/UniformsMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/scene/Projection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/shaders/scene.vert" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engine/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/Render.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Render.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/Mesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Mesh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/SceneRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/SceneRender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engine/scene/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/scene/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/fragmentShader.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/scene.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/vertexShader.glsl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,7 @@
       <workItem from="1701147560167" duration="7299000" />
       <workItem from="1701237851260" duration="4572000" />
       <workItem from="1701357704307" duration="611000" />
-      <workItem from="1701499105300" duration="6527000" />
+      <workItem from="1701499105300" duration="8107000" />
     </task>
     <servers />
   </component>
