@@ -39,8 +39,8 @@ public class Main {
         GL.createCapabilities();
 
         // Load shaders and create shader program
-       // int shaderProgram = ShaderLoader.loadShaders("shaders/vertexShader.glsl",
-        //        "shaders/fragmentShader.glsl");
+       // int shaderProgram = ShaderLoader.loadShaders("shaders/scene.vert",
+        //        "shaders/scene.frag");
 
 //        // Create skybox
 //       Skybox skybox = new Skybox(shaderProgram);
