@@ -1,8 +1,11 @@
 package engine.graph;
 
+import engine.scene.Entity;
 import engine.scene.Scene;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 import static org.lwjgl.opengl.GL30.*;
 
@@ -26,6 +29,7 @@ public class SceneRender {
     private void createUniforms() {
         uniformsMap = new UniformsMap(shaderProgram.getProgramId());
         uniformsMap.createUniform("projectionMatrix");
+        uniformsMap.createUniform("modelMatrix");
     }
 
     public void render(Scene scene) {
@@ -33,11 +37,17 @@ public class SceneRender {
 
         uniformsMap.setUniform("projectionMatrix", scene.getProjection().getProjMatrix());
 
-        scene.getMeshMap().values().forEach(mesh -> {
-                    glBindVertexArray(mesh.getVaoId());
+        Collection<Model> models = scene.getModelMap().values();
+        for (Model model : models) {
+            model.getMeshList().stream().forEach(mesh -> {
+                glBindVertexArray(mesh.getVaoId());
+                List<Entity> entities = model.getEntitiesList();
+                for (Entity entity : entities) {
+                    uniformsMap.setUniform("modelMatrix", entity.getModelMatrix());
                     glDrawElements(GL_TRIANGLES, mesh.getNumVertices(), GL_UNSIGNED_INT, 0);
                 }
-        );
+            });
+        }
 
         glBindVertexArray(0);
 
