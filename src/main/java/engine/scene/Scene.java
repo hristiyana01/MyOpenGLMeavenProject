@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class Scene {
 
+    private Camera camera;
     private Map<String, Model> modelMap;
     private Projection projection;
     private TextureCache textureCache;
@@ -16,6 +17,7 @@ public class Scene {
         modelMap = new HashMap<>();
         projection = new Projection(width, height);
         textureCache = new TextureCache();
+        camera = new Camera();
     }
 
     public void addEntity(Entity entity) {
@@ -33,6 +35,10 @@ public class Scene {
 
     public void cleanup() {
         modelMap.values().forEach(Model::cleanup);
+    }
+
+    public Camera getCamera() {
+        return camera;
     }
 
     public Map<String, Model> getModelMap() {

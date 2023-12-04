@@ -5,27 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8afc0b5-bac7-4878-ba2d-7534fe62536e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Texture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/engine/graph/TextureCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/models/cube/cube.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/models/default/default_texture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/MouseInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/engine/scene/Camera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShaderLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/ShaderLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Skybox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Skybox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TextureLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/TextureLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/Mesh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Mesh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engine/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engine/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/SceneRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/SceneRender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/ShaderProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/ShaderProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/UniformsMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/UniformsMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/engine/graph/TextureCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/graph/TextureCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/engine/scene/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/engine/scene/Scene.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/game/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/scene.frag" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/scene.frag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/shaders/scene.vert" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/shaders/scene.vert" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/tinylog.properties " beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/tinylog.properties " afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
