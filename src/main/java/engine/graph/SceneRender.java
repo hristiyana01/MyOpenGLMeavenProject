@@ -21,7 +21,6 @@ public class SceneRender {
         shaderProgram = new ShaderProgram(shaderModuleDataList);
         createUniforms();
     }
-
     public void cleanup() {
         shaderProgram.cleanup();
     }
